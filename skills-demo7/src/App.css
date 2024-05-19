@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  background-image: linear-gradient(red, white);
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: orange;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+
+.pokemonDictionary {
+  margin: 1em;
+  padding: 0.5em;
+  justify-content: left;
+  box-shadow: 2px 2px 4px #000000;;
+  background-color: gainsboro;
+  border: 1px solid black;
+  border-radius: 1em;
+}
+
+
+.trainer1 {
+  margin: 1em;
+  padding: 0.5em;
+  justify-content: left;
+  box-shadow: 2px 2px 4px #000000;;
+  background-color: azure;
+  border: 1px solid black;
+  border-radius: 1em;
+}
+
+.trainer2 {
+  margin: 1em;
+  padding: 0.5em;
+  justify-content: left;
+  box-shadow: 2px 2px 4px #000000;;
+  background-color: azure;
+  border: 1px solid black;
+  border-radius: 1em;
+}
+
+.trainer3 {
+  margin: 1em;
+  padding: 0.5em;
+  justify-content: left;
+  box-shadow: 2px 2px 4px #000000;;
+  background-color: azure;
+  border: 1px solid black;
+  border-radius: 1em;
+}
+
+.trainer4 {
+  margin: 1em;
+  padding: 0.5em;
+  justify-content: left;
+  box-shadow: 2px 2px 4px #000000;;
+  background-color: azure;
+  border: 1px solid black;
+  border-radius: 1em;
+}
