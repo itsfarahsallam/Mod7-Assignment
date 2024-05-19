@@ -3,7 +3,6 @@ import './App.css';
 import Person from './components/Person';
 import MusicPlayerSlider from './components/MusicPlayerSlider';
 import CustomizedRating from './components/Rating';
-import { Avatar } from '@mui/material';
 
 function App() {
   const [pokemonName, setPokemonName] = useState('');
