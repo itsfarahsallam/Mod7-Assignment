@@ -3,6 +3,7 @@ import './App.css';
 import Person from './components/Person';
 import MusicPlayerSlider from './components/MusicPlayerSlider';
 import CustomizedRating from './components/Rating';
+import { Avatar } from '@mui/material';
 
 function App() {
   const [pokemonName, setPokemonName] = useState('');
@@ -65,7 +66,6 @@ function App() {
 
   return (
     <>
-      
         <ul class="topnav">
           <li><a class="active" href="#home">Home</a></li>
           <li><a href="#news">News</a></li>
@@ -74,6 +74,7 @@ function App() {
         </ul>
         <h1>A Pokemon Fansite</h1>
       <MusicPlayerSlider></MusicPlayerSlider>
+
       <div className='pokemonDictionary'>
         <input 
           type="text" 

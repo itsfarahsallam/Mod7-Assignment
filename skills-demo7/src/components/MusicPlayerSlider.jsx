@@ -88,7 +88,7 @@ export default function MusicPlayerSlider() {
 
   function formatDuration(value) {
     const minute = Math.floor(value / 60);
-    const secondLeft = value - minute * 60;
+    const secondLeft = Math.floor(value - minute * 60);
     return `${minute}:${secondLeft < 10 ? `0${secondLeft}` : secondLeft}`;
   }
 
@@ -98,7 +98,7 @@ export default function MusicPlayerSlider() {
 
   return (
     <Box sx={{ width: '100%', overflow: 'hidden' }}>
-      <audio ref={audioRef} src="D:\CIS255\Assignments\Mod7-Assignment\skills-demo7\330 Kanawa Town.mp3"></audio>
+      <audio ref={audioRef} src="\public\330 Kanawa Town.mp3"></audio>
       <Widget>
         <Box sx={{ display: 'flex', alignItems: 'center' }}>
           <CoverImage>
